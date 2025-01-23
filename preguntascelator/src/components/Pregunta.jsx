@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Pregunta = ({pregunta}) => {
     const {id, enunciado, respuesta1, respuesta2, respuesta3, respuesta4, respuestacorrecta, favorita} = pregunta;
     return (
